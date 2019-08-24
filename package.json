@@ -9,6 +9,8 @@
     "gatsby-image": "^2.2.10",
     "gatsby-plugin-manifest": "^2.2.6",
     "gatsby-plugin-offline": "^2.2.7",
+    "gatsby-plugin-postcss": "^2.1.5",
+    "gatsby-plugin-purgecss": "^4.0.0",
     "gatsby-plugin-react-helmet": "^3.1.4",
     "gatsby-plugin-sharp": "^2.2.13",
     "gatsby-source-filesystem": "^2.1.11",
@@ -26,13 +28,16 @@
     "@storybook/react": "^5.1.11",
     "@testing-library/jest-dom": "^4.1.0",
     "@testing-library/react": "^9.1.3",
+    "autoprefixer": "^9.6.1",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "babel-preset-gatsby": "^0.2.11",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
+    "postcss-import": "^12.0.1",
     "prettier": "^1.18.2",
-    "react-test-renderer": "^16.9.0"
+    "react-test-renderer": "^16.9.0",
+    "tailwindcss": "^1.1.2"
   },
   "keywords": [
     "gatsby",
