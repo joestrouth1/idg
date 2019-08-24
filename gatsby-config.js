@@ -38,5 +38,9 @@ module.exports = {
         tailwind: true,
       },
     },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {}
+    }
   ],
 }
