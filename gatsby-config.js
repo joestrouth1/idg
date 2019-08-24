@@ -1,4 +1,4 @@
-require("dotenv").config({
+require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
@@ -7,7 +7,7 @@ module.exports = {
     title: `Ideal Gatsby`,
     description: `Fast static sites with Gatsby, including tests with Jest and a component explorer powered by Storybook`,
     author: `@joestrouth1`,
-    siteUrl: 'https://www.joes.house'
+    siteUrl: 'https://www.joes.house',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,16 +36,16 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
     // to completely remove a previous service worker from plugin-offline, use gatsby-plugin-remove-serviceworker in its place
-    "gatsby-plugin-postcss",
+    'gatsby-plugin-postcss',
     {
-      resolve: "gatsby-plugin-purgecss",
+      resolve: 'gatsby-plugin-purgecss',
       options: {
         tailwind: true,
       },
     },
     {
       resolve: 'gatsby-plugin-sitemap',
-      options: {}
+      options: {},
     },
     {
       resolve: `gatsby-plugin-canonical-urls`,
@@ -55,19 +55,19 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-google-tagmanager",
+      resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         id: process.env.GTM_ID,
-  
+
         // Include GTM in development.
         // Defaults to false meaning GTM will only be loaded in production.
         includeInDevelopment: false,
-  
+
         // datalayer to be set before GTM is loaded
         // should be an object or a function that is executed in the browser
         // Defaults to null
         // defaultDataLayer: { platform: "gatsby" },
-  
+
         // Specify optional GTM environment details.
         // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
         // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
