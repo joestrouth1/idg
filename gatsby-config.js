@@ -3,6 +3,7 @@ module.exports = {
     title: `Ideal Gatsby`,
     description: `Fast static sites with Gatsby, including tests with Jest and a component explorer powered by Storybook`,
     author: `@joestrouth1`,
+    siteUrl: 'https://www.joes.house'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -41,6 +42,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {}
-    }
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.joes.house`,
+        stripQueryString: true,
+      },
+    },
   ],
 }
