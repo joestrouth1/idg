@@ -6888,6 +6888,13 @@ gatsby-plugin-canonical-urls@^2.1.5:
   dependencies:
     "@babel/runtime" "^7.5.5"
 
+gatsby-plugin-google-tagmanager@^2.1.7:
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.1.7.tgz#5b6007dfda0da39aeab31ffe67bcc45254ebb0e9"
+  integrity sha512-N3SvfE1h+De7dsztA7UJHbwuLCiPzYptRyA02w4D9NQa+SG0A+2T+ZHOn/YvhBxpbtKvcTAVWjEoWHDlqd6fMw==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+
 gatsby-plugin-manifest@^2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.6.tgz#7dc0758ad16cb7656f0b808c7fef282b8f165d8c"
