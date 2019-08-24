@@ -9,6 +9,9 @@ These include:
 - [Storybook](https://storybook.js.org), a UI workbench for developing and exploring components.
 - [Jest](https://jestjs.io/), a framework for writing and running JavaScript tests.
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro), a set of utilities for authoring tests in a maintainable, user-centric way.
+- [Tailwind CSS](https://tailwindcss.com/), a utility-first framework for building design systems in CSS.
+- [Purgecss](https://www.purgecss.com/), a tool for removing unused CSS.
+- [Autoprefixer](https://github.com/postcss/autoprefixer), a tool that automatically adds vendor prefixes for CSS rules.
 
 ## 🚀 Quick start
 

@@ -31,12 +31,12 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
     // to completely remove a previous service worker from plugin-offline, use gatsby-plugin-remove-serviceworker in its place
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
     {
-      resolve: 'gatsby-plugin-purgecss',
+      resolve: "gatsby-plugin-purgecss",
       options: {
-        tailwind: true
-      }
-    }
+        tailwind: true,
+      },
+    },
   ],
 }

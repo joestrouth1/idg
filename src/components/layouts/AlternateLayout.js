@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react"
 
-const AlternateLayout = ({children}) => (
-<div>
-  <h1>Alternate layout
-    {children}
-  </h1>
-</div>
+const AlternateLayout = ({ children }) => (
+  <div>
+    <h1>
+      Alternate layout
+      {children}
+    </h1>
+  </div>
 )
 
-export {AlternateLayout}
+export { AlternateLayout }
