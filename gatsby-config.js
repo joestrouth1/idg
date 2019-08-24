@@ -74,5 +74,14 @@ module.exports = {
         // dataLayerName: "YOUR_DATA_LAYER_NAME",
       },
     },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        // color: `tomato`,
+        // Disable the loading spinner.
+        showSpinner: false,
+      },
+    },
   ],
 }
