@@ -771,7 +771,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/preset-typescript@7.3.3":
+"@babel/preset-typescript@7.3.3", "@babel/preset-typescript@^7.3.3":
   version "7.3.3"
   resolved "https://registry.yarnpkg.com/@babel/preset-typescript/-/preset-typescript-7.3.3.tgz#88669911053fa16b2b276ea2ede2ca603b3f307a"
   integrity sha512-mzMVuIP4lqtn4du2ynEfdO0+RYcslwrZiJHXu4MGaC1ctJiW2fyaeDrtjJGs7R/KebZ1sgowcIoWf4uRpEfKEg==
@@ -2011,6 +2011,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.10.7.tgz#8604623912010235185f1166c7a5a9aa7de9fcd8"
   integrity sha512-4I7+hXKyq7e1deuzX9udu0hPIYqSSkdKXtjow6fMnQ3OR9qkxIErGHbGY08YrfZJrCS1ajK8lOuzd0k3n2WM4A==
 
+"@types/node@^12.7.2":
+  version "12.7.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.2.tgz#c4e63af5e8823ce9cc3f0b34f7b998c2171f0c44"
+  integrity sha512-dyYO+f6ihZEtNPDcWNR1fkoTDf3zAK3lAABDze3mz6POyIercH0lEUawUFXlG8xaQZmm1yEBON/4TsYv/laDYg==
+
 "@types/pretty-format@*":
   version "20.0.1"
   resolved "https://registry.yarnpkg.com/@types/pretty-format/-/pretty-format-20.0.1.tgz#7ce03b403887b087701a2b4534464f48ce7b2f48"
@@ -2034,14 +2039,14 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react-dom@*":
+"@types/react-dom@*", "@types/react-dom@^16.9.0":
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.0.tgz#ba6ddb00bf5de700b0eb91daa452081ffccbfdea"
   integrity sha512-OL2lk7LYGjxn4b0efW3Pvf2KBVP0y1v3wip1Bp7nA79NkOpElH98q3WdCEdDj93b2b0zaeBG9DvriuKjIK5xDA==
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.8.12", "@types/react@^16.8.6":
+"@types/react@*", "@types/react@^16.8.12", "@types/react@^16.8.6", "@types/react@^16.9.2":
   version "16.9.2"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.2.tgz#6d1765431a1ad1877979013906731aae373de268"
   integrity sha512-jYP2LWwlh+FTqGd9v7ynUKZzjj98T8x7Yclz479QdRhHfuW9yQ+0jjnD31eXSXutmBpppj5PYNLYLRfnZJvcfg==
@@ -3129,6 +3134,11 @@ babel-plugin-remove-graphql-queries@^2.7.3:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-2.7.3.tgz#01178cf925a09e67919d4b7180209055bb1920b7"
   integrity sha512-xuOzXil34XPhkIGE/1EmCyfPlMgX2sXBaNf3n+ico5pM3HNrKc8vHcng9CoK2jnSXEwoX5wASFfKZg1eNNdz1w==
+
+babel-plugin-remove-graphql-queries@^2.7.5:
+  version "2.7.5"
+  resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-2.7.5.tgz#841631756b95c6919a0db37d26530c7b2174b3b8"
+  integrity sha512-cc2EGIp+bMZmpTg4+zO8LEiCP/+x+4rQpH8ekaGrpu7IkyDL07nrhdOBTmVs+Xwx8coFIdCU6RUvRv2RwmCxtg==
 
 babel-plugin-syntax-dynamic-import@^6.18.0:
   version "6.18.0"
@@ -6995,6 +7005,15 @@ gatsby-plugin-sitemap@^2.2.9:
     minimatch "^3.0.4"
     pify "^3.0.0"
     sitemap "^1.13.0"
+
+gatsby-plugin-typescript@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.1.5.tgz#35a5e87df7d025a2d2d0f8a78b429a52a1ffe3e5"
+  integrity sha512-VMZGBO0K+mde8DKYAOaD/RgaZ3xNvdpC3z/z6c2qtrt6381mPDg+E8bVwhjLrcQPrML8mq7UVy5URGzEWy/3Gg==
+  dependencies:
+    "@babel/preset-typescript" "^7.3.3"
+    "@babel/runtime" "^7.5.5"
+    babel-plugin-remove-graphql-queries "^2.7.5"
 
 gatsby-react-router-scroll@^2.1.4:
   version "2.1.4"

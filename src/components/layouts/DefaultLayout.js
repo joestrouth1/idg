@@ -31,7 +31,7 @@ const DefaultLayout = ({ children }) => {
         <footer>
           <div className="mt-8 px-4 md:px-8 py-12 bg-orange-900 text-blue-100 font-serif">
             © {new Date().getFullYear()}, Built with
-          {` `}
+            {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </div>
         </footer>

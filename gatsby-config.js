@@ -10,6 +10,12 @@ module.exports = {
     siteUrl: 'https://www.joes.house',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-typescript',
+      options: {
+        // isTsx: true
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
