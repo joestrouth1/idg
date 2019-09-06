@@ -11,6 +11,6 @@ RUN yarn install
 
 COPY . /app
 
-CMD yarn develop
+CMD yarn develop -H 0.0.0.0 -p 8000
 
 EXPOSE 8000
