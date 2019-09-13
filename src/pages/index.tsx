@@ -10,7 +10,7 @@ const Image = props => {
     query {
       cathedral: file(relativePath: { eq: "cathedral.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 960) {
+          fluid(maxWidth: 2200) {
             ...GatsbyImageSharpFluid
           }
         }

@@ -1,10 +1,10 @@
 {
-  "name": "@joestrouth1/idg",
-  "private": true,
+  "name": "idg",
   "description": "Gatsby with all the fixins",
   "version": "0.1.0",
   "author": "Joe Strouth <joestrouth1@gmail.com>",
   "dependencies": {
+    "c-components": "*",
     "gatsby": "^2.13.73",
     "gatsby-image": "^2.2.10",
     "gatsby-plugin-canonical-urls": "^2.1.5",
@@ -41,7 +41,8 @@
     "postcss-import": "^12.0.1",
     "prettier": "^1.18.2",
     "react-test-renderer": "^16.9.0",
-    "tailwindcss": "^1.1.2"
+    "tailwindcss": "^1.1.2",
+    "typescript": "^3.6.3"
   },
   "keywords": [
     "gatsby",
@@ -54,7 +55,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "jest"
+    "test": "jest",
+    "type-check": "tsc"
   },
   "repository": {
     "type": "git",
